@@ -4,7 +4,7 @@
 $ git clone git://github.com/oleavr/frida-agent-example.git
 $ cd frida-agent-example/
 $ npm install
-$ frida -U -f com.example.android --no-pause -l _agent.js
+$ frida -U -f owasp.mstg.uncrackable1 --no-pause -l _agent_uncrackable1.js
 ```
 
 ### Development workflow
@@ -12,7 +12,7 @@ $ frida -U -f com.example.android --no-pause -l _agent.js
 To continuously recompile on change, keep this running in a terminal:
 
 ```sh
-$ npm run watch
+$ npm run watch_all
 ```
 
 And use an editor like Visual Studio Code for code completion and instant

@@ -5,9 +5,11 @@
   "private": true,
   "main": "agent/index.ts",
   "scripts": {
-    "prepare": "npm run build",
-    "build": "frida-compile agent/index.ts -o _agent.js -c",
-    "watch": "frida-compile agent/index.ts -o _agent.js -w"
+    "prepare": "npm run build_all",
+    "build_all": "npm run build_uncrackable1",
+    "watch_all": "npm run watch_uncrackable1",
+    "build_uncrackable1": "frida-compile agent/owasp.mstg.uncrackable1/index.ts -o dist/_agent_uncrackable1.js -c",
+    "watch_uncrackable1": "frida-compile agent/owasp.mstg.uncrackable1/index.ts -o dist/_agent_uncrackable1.js -w"
   },
   "devDependencies": {
     "@types/frida-gum": "^18.1.0",
