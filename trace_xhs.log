@@ -1,0 +1,16 @@
+Spawning `com.xingin.xhs`...
+Instrumenting...
+JNI_OnLoad: Loaded handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libwebviewchromium_loader.so/JNI_OnLoad.js"
+JNI_OnLoad: Loaded handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libicu_jni.so/JNI_OnLoad.js"
+JNI_OnLoad: Loaded handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libjavacore.so/JNI_OnLoad.js"
+JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libmedia_jni.so/JNI_OnLoad.js"
+JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libwebviewchromium_plat_support.so/JNI_OnLoad.js"
+JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libopenjdk.so/JNI_OnLoad.js"
+net_JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libopenjdk.so/net_JNI_OnLoad.js"
+JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libjavacrypto.so/JNI_OnLoad.js"
+JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libstats_jni.so/JNI_OnLoad.js"
+JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libaudioeffect_jni.so/JNI_OnLoad.js"
+JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/libsoundpool.so/JNI_OnLoad.js"
+JNI_OnLoad: Auto-generated handler at "/home/kali/MyGitRepos/frida-agent-example/__handlers__/librs_jni.so/JNI_OnLoad.js"
+Started tracing 12 functions. Press Ctrl+C to stop.
+Process terminated

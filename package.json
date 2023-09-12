@@ -6,10 +6,12 @@
   "main": "agent/index.ts",
   "scripts": {
     "prepare": "npm run build_all",
-    "build_all": "npm run build_uncrackable1",
-    "watch_all": "npm run watch_uncrackable1",
+    "build_all": "npm run build_uncrackable1 && npm run build_xhs",
+    "watch_all": "npm run watch_uncrackable1 && npm run watch_xhs",
     "build_uncrackable1": "frida-compile agent/owasp.mstg.uncrackable1/index.ts -o dist/_agent_uncrackable1.js -c",
-    "watch_uncrackable1": "frida-compile agent/owasp.mstg.uncrackable1/index.ts -o dist/_agent_uncrackable1.js -w"
+    "watch_uncrackable1": "frida-compile agent/owasp.mstg.uncrackable1/index.ts -o dist/_agent_uncrackable1.js -w",
+    "build_xhs": "frida-compile agent/com.xingin.xhs/index.ts -o dist/_agent_xhs.js -c",
+    "watch_xhs": "frida-compile agent/com.xingin.xhs/index.ts -o dist/_agent_xhs.js -w"
   },
   "devDependencies": {
     "@types/frida-gum": "^18.1.0",
